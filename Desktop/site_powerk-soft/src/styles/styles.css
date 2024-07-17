@@ -1,0 +1,52 @@
+/* styles.css */
+
+/* Navbar background color */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.55) !important;  /* Utilisation de !important pour forcer le style si nécessaire */
+  box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54) ;
+  border-radius: 0; /* Optionnel: pour enlever les coins arrondis de la navbar */
+}
+
+/* Navbar links color */
+.navbar .navbar-nav > li > a {
+  color:white !important; /* Couleur du texte des liens */
+}
+
+/* Navbar links hover color */
+.navbar .navbar-nav > li > a:hover {
+  color: lightblue !important; /* Couleur du texte des liens au survol */
+}
+
+/* Bouton de la navbar */
+.navbar-toggle {
+  background-color: transparent !important; /* Couleur de fond transparente */
+  border: none; /* Retire la bordure */
+}
+
+/* Icône de la navbar */
+.navbar-toggle .icon-bar {
+  background-color: white !important; /* Couleur des barres de l'icône */
+}
+
+.language-selector {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.language-selector select {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.log {
+  font-size: 100%;
+  color: white;
+  margin: -0%;
+  padding: 0;
+  line-height: 1;
+  font-weight: bold;
+}
+.log span {
+  color: #3ec1d5;
+}
